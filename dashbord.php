@@ -8,7 +8,7 @@ require('./Views/header.php');
 
 <div class="module1">
   Bienvenue dans le dashboard
-  <Form  action="recup.php" method="post">
+  <Form class="formboard" action="recup.php" method="post">
     <label for="titre">Titre</label>
     <input type="text" id="titre" name="titre"></input>
     <label for="texte">Message</label>

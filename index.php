@@ -1,4 +1,6 @@
     <!-- Lancer un serveur depuis la console php: php -S localhost:8000 -->
+
+  
     <?php
     session_start();
     $title= "Page Afpa";
@@ -13,6 +15,6 @@
     
 
 
-
-
 ?>
+<script src="./menu.js" defer></script>
+
