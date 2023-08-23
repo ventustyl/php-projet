@@ -72,23 +72,26 @@ section {
 
 aside {
   background: #e5e5e5;
-
   width: 28vw;
 }
 
-.module1 {
+.module1,
+.module2 {
   display: flex;
   flex-direction: column;
   width: 80%;
   margin: 50px auto;
   padding: 30px;
   background: #a0a0a0;
-  height: 50vh;
 }
 
+.module2 {
+  height: max-content;
+}
 label {
   margin-top: 10px;
 }
+
 #mdp {
   color: black;
 }
@@ -99,9 +102,14 @@ label {
   align-items: center;
   justify-content: center;
 }
-
+.formboard label {
+  width: 80%;
+  font-size: 20px;
+}
 .formboard input {
-  max-height: 60px;
+  height: 120px;
+  width: 80%;
+  padding: 10px;
 }
 
 button {
@@ -110,6 +118,12 @@ button {
   color: black;
 }
 
+.btn-form {
+  height: auto !important;
+  width: auto !important;
+  padding: 20px;
+  margin: 20px auto;
+}
 .minion {
   width: 80%;
   margin: auto;

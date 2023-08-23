@@ -6,15 +6,15 @@ require('./Views/header.php');
 ?>
 
 
-<div class="module1">
-  Bienvenue dans le dashboard
+<div class="module2">
+ <h1> Bienvenue dans le dashboard</h1>
   <Form class="formboard" action="recup.php" method="post">
     <label for="titre">Titre</label>
     <input type="text" id="titre" name="titre"></input>
     <label for="texte">Message</label>
     <input type="text" id="texte" name="texte"></input>
     <div>
-      <input type="submit" name="submit"></input>
+      <input class="btn-form" type="submit" name="submit"></input>
   </Form>
 </div>
 </div>
